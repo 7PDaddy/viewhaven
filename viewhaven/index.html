@@ -259,6 +259,9 @@
     transition:transform .2s ease, box-shadow .2s ease;
   }
   .post-card:hover{transform:translateY(-4px);box-shadow:0 16px 30px rgba(0,0,0,.06);}
+  .post-card .thumb{margin:-28px -28px 20px;border-radius:14px 14px 0 0;overflow:hidden;aspect-ratio:16/10;}
+  .post-card .thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease;}
+  .post-card:hover .thumb img{transform:scale(1.04);}
   .post-card .date{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--sage-deep);font-weight:700;margin-bottom:10px;}
   .post-card h3{font-size:21px;margin-bottom:10px;}
   .post-card p{color:var(--ink-soft);font-size:15px;margin-bottom:0;flex:1;}
@@ -397,18 +400,21 @@
       </div>
       <div class="posts-grid">
         <a href="reflections/gospel-go-bags" class="post-card">
+          <div class="thumb"><img src="images/gospel-go-bags-bibles-encouragement-card.jpg" alt="Bibles and a Gospel Go Bags encouragement card that reads You Matter, God Sees You" loading="lazy"></div>
           <div class="date">Aug 9, 2026</div>
           <h3>Gospel Go Bags, A Simple Way to Make a Difference</h3>
           <p>A morning assembling and delivering Gospel Go Bags in Phoenix, and an invitation to join in or start something of your own.</p>
           <div class="read-more">Read more →</div>
         </a>
         <a href="reflections/2025-recap" class="post-card">
+          <div class="thumb"><img src="images/maryland-bridge-crossing-into-new-year.jpg" alt="Pedestrian bridge in Maryland, a picture of crossing from one year into the next" loading="lazy"></div>
           <div class="date">Jan 1, 2026</div>
           <h3>2025 Recap and 2026 Goals</h3>
           <p>Pressing on with purpose, a look back at a year of experimenting with sharing hope online, and what's ahead.</p>
           <div class="read-more">Read more →</div>
         </a>
         <a href="reflections/embracing-growth" class="post-card">
+          <div class="thumb"><img src="images/arizona-desert-sunset-saguaro.jpg" alt="Arizona desert sunset with a saguaro cactus, a reminder to let go and trust" loading="lazy"></div>
           <div class="date">Oct 29, 2025</div>
           <h3>Embracing Growth by Letting Go</h3>
           <p>Forgetting what is behind and straining toward what is ahead, a reflection on pressing on toward the goal.</p>
